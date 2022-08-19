@@ -29,13 +29,15 @@ static const struct modversion_info ____versions[]
 __used __section("__versions") = {
 	{ 0xcb440b5e, "module_layout" },
 	{ 0x6bc3fbc0, "__unregister_chrdev" },
-	{ 0x5b8239ca, "__x86_return_thunk" },
-	{ 0x92997ed8, "_printk" },
 	{ 0xb9b2940c, "__register_chrdev" },
+	{ 0x5b8239ca, "__x86_return_thunk" },
+	{ 0xdb70e588, "module_put" },
+	{ 0x92997ed8, "_printk" },
 	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0x6baa0967, "try_module_get" },
 };
 
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "5D14A6E3A1B03E792A8C266");
+MODULE_INFO(srcversion, "728A9804F95A3AFBE2A7099");

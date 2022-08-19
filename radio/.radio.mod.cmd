@@ -1,1 +1,1 @@
-cmd_/home/krautkraft/lkm/radio/radio.mod := { echo  /home/krautkraft/lkm/radio/radio.o;  echo; } > /home/krautkraft/lkm/radio/radio.mod
+cmd_/home/krautkraft/lkm/radio/radio.mod := { echo  /home/krautkraft/lkm/radio/radio_main.o /home/krautkraft/lkm/radio/radio_read.o /home/krautkraft/lkm/radio/radio_write.o;  echo; } > /home/krautkraft/lkm/radio/radio.mod
