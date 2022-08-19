@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/radio/Module.symvers := sed 's/\.ko$$/\.o/' /home/krautkraft/lkm/radio/modules.order | scripts/mod/modpost -m -a  -o /home/krautkraft/lkm/radio/Module.symvers -e -i Module.symvers   -T -

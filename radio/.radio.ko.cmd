@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/radio/radio.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/krautkraft/lkm/radio/radio.ko /home/krautkraft/lkm/radio/radio.o /home/krautkraft/lkm/radio/radio.mod.o;  true
