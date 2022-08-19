@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/fixed_random_for/modules.order := {   echo /home/krautkraft/lkm/fixed_random_for/fixed_random_for.ko; :; } | awk '!x[$$0]++' - > /home/krautkraft/lkm/fixed_random_for/modules.order

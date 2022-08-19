@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/fixed_random_for/fixed_random_for.mod := { echo  /home/krautkraft/lkm/fixed_random_for/fixed_random_for.o;  echo; } > /home/krautkraft/lkm/fixed_random_for/fixed_random_for.mod

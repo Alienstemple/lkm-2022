@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/my_alert/modules.order := {   echo /home/krautkraft/lkm/my_alert/hello.ko;   echo /home/krautkraft/lkm/my_alert/goodbye.ko;   echo /home/krautkraft/lkm/my_alert/my_alert.ko; :; } | awk '!x[$$0]++' - > /home/krautkraft/lkm/my_alert/modules.order

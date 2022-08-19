@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/my_alert/goodbye.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/krautkraft/lkm/my_alert/goodbye.ko /home/krautkraft/lkm/my_alert/goodbye.o /home/krautkraft/lkm/my_alert/goodbye.mod.o;  true

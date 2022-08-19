@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/fixed_random_for/Module.symvers := sed 's/\.ko$$/\.o/' /home/krautkraft/lkm/fixed_random_for/modules.order | scripts/mod/modpost -m -a  -o /home/krautkraft/lkm/fixed_random_for/Module.symvers -e -i Module.symvers   -T -

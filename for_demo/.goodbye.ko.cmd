@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/for_demo/goodbye.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/krautkraft/lkm/for_demo/goodbye.ko /home/krautkraft/lkm/for_demo/goodbye.o /home/krautkraft/lkm/for_demo/goodbye.mod.o;  true

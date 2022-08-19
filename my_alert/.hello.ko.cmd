@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/my_alert/hello.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/krautkraft/lkm/my_alert/hello.ko /home/krautkraft/lkm/my_alert/hello.o /home/krautkraft/lkm/my_alert/hello.mod.o;  true

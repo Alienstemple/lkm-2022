@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/comline/Module.symvers := sed 's/\.ko$$/\.o/' /home/krautkraft/lkm/comline/modules.order | scripts/mod/modpost -m -a  -o /home/krautkraft/lkm/comline/Module.symvers -e -i Module.symvers   -T -

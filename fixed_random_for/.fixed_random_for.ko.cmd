@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/fixed_random_for/fixed_random_for.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/krautkraft/lkm/fixed_random_for/fixed_random_for.ko /home/krautkraft/lkm/fixed_random_for/fixed_random_for.o /home/krautkraft/lkm/fixed_random_for/fixed_random_for.mod.o;  true

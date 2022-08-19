@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/my_alert/hello.o := ld  -m elf_x86_64    -r -o /home/krautkraft/lkm/my_alert/hello.o /home/krautkraft/lkm/my_alert/start.o /home/krautkraft/lkm/my_alert/stop.o /home/krautkraft/lkm/my_alert/my_alert.o

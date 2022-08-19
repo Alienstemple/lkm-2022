@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/for_demo/modules.order := {   echo /home/krautkraft/lkm/for_demo/hello.ko;   echo /home/krautkraft/lkm/for_demo/fordemo.ko; :; } | awk '!x[$$0]++' - > /home/krautkraft/lkm/for_demo/modules.order
