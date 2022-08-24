@@ -28,19 +28,26 @@ MODULE_INFO(retpoline, "Y");
 static const struct modversion_info ____versions[]
 __used __section("__versions") = {
 	{ 0xcb440b5e, "module_layout" },
-	{ 0x6bc3fbc0, "__unregister_chrdev" },
-	{ 0xb9b2940c, "__register_chrdev" },
-	{ 0x167e7f9d, "__get_user_1" },
+	{ 0xa93bfc46, "remove_proc_entry" },
 	{ 0x5b8239ca, "__x86_return_thunk" },
-	{ 0xc3aaf0a9, "__put_user_1" },
-	{ 0x87a21cb3, "__ubsan_handle_out_of_bounds" },
+	{ 0x52673010, "current_task" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0x800473f, "__cond_resched" },
 	{ 0xdb70e588, "module_put" },
+	{ 0xa916b694, "strnlen" },
+	{ 0xd0da656b, "__stack_chk_fail" },
+	{ 0x1000e51, "schedule" },
 	{ 0x92997ed8, "_printk" },
 	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0xcbd4898c, "fortify_panic" },
+	{ 0x3eeb2322, "__wake_up" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0xe832bcc7, "proc_create" },
 	{ 0x6baa0967, "try_module_get" },
 };
 
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "345635DC440490A1F93AA9E");
+MODULE_INFO(srcversion, "C50C5B4460D6FB31B0969AB");

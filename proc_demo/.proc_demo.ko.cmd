@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/proc_demo/proc_demo.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/krautkraft/lkm/proc_demo/proc_demo.ko /home/krautkraft/lkm/proc_demo/proc_demo.o /home/krautkraft/lkm/proc_demo/proc_demo.mod.o;  true

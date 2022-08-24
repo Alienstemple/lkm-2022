@@ -1,0 +1,1 @@
+cmd_/home/krautkraft/lkm/proc_demo/proc_demo.o := ld  -m elf_x86_64    -r -o /home/krautkraft/lkm/proc_demo/proc_demo.o /home/krautkraft/lkm/proc_demo/proc_demo_main.o /home/krautkraft/lkm/proc_demo/proc_demo_read.o /home/krautkraft/lkm/proc_demo/proc_demo_write.o /home/krautkraft/lkm/proc_demo/proc_demo_oc.o

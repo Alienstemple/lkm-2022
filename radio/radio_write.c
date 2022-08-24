@@ -17,7 +17,7 @@ ssize_t radio_write(struct file *file, const char *buffer, size_t length, loff_t
 	if (ofs + length > BUF_SIZE - 1) length = BUF_SIZE-1-ofs;
 
 	for (p = r_buffer + ofs, len = length; len > 0; len--, p++, buffer++)
-		*p = *buffer;
+		get_user(*p, buffer);   //*p = *buffer;
 	*offset += length;
 
 	return length;
